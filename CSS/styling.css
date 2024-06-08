@@ -1,0 +1,332 @@
+/* Add some basic styles to the header */
+.header {
+  background-color: rgb(25, 28, 73);
+  color: #fff;
+  position: fixed;
+  background-image: url(../Photos/bg_img.jpeg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 1000;
+  display: flex;
+}
+
+/*TO Style the navigation links within the header*/
+.header_a {
+  font-family: Roboto;
+  text-decoration: solid;
+  color: rgb(253, 253, 253);
+  margin: 0 15px;
+  font-weight: bold;
+}
+.header_n {
+  font-family: Roboto;
+  text-decoration: solid;
+  color: rgb(27, 1, 43);
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.header_h {
+  font-family: Roboto;
+  text-decoration: solid;
+  color: rgb(255, 255, 255);
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+.header_a:hover {
+  color: yellow;
+}
+
+/* Add some padding to the body to prevent content from being hidden behind the header */
+.body {
+  /* Replace 'path-to-your-image.jpg' with the actual path to your image file */
+  background-size: cover; /* This will scale the image to cover the entire background */
+  background-position: center; /* Center the image */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../Photos/Background_IMG.jpeg);
+  background-attachment: fixed; /* Keep the image fixed while scrolling */
+  margin-top: 60px;
+}
+
+.nav {
+  margin-left: 10px;
+}
+#announcement-corner {
+  background-size: contain;
+  background-position: bottom;
+  background-attachment: fixed;
+  top: 100px;
+  left: 200px;
+
+  width: 250px;
+  height: 200px;
+  background-color: rgb(25, 28, 73);
+  border: 1px solid rgb(1, 34, 16);
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+#announcement-corner-header {
+  /* text-align: center; */
+  top: 100px;
+  left: 200px;
+  width: 250px; /* Adjust as needed */
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgb(1, 34, 16);
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 5px;
+  display: block;
+}
+
+/* #announcement-container {
+        animation: scroll-announcements 10s linear infinite;
+    } */
+
+.announcement {
+  margin: 10px 0;
+  color: white;
+}
+.text {
+  font-family: Roboto;
+  font-weight: bold;
+  width: 1341px;
+  text-align: center;
+  color: rgb(4, 49, 4);
+  font-size: 70px;
+  display: inline-block;
+}
+.button {
+  font-family: Roboto;
+  letter-spacing: 1px;
+  text-align: center;
+  background-color: rgb(7, 42, 71);
+  color: white;
+  border: 2px solid rgb(255, 232, 28);
+  border-radius: 10px;
+  background: rgb(255, 232, 28);
+  color: rgba(0, 0, 200, 0.4);
+  padding: 3px 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px rgba(0, 0, 200, 2.5);
+  font-weight: bold;
+  font-size: 25px;
+  /* margin-left:8px; */
+  transition: box-shadow 0.15s;
+}
+.button:hover {
+  color: black;
+  box-shadow: 1px 1px 2px rgba(0, 0, 200, 0.4);
+  /* background-color: rgb(173, 41, 41); */
+}
+.button-position {
+  margin-left: 610px;
+}
+/* .headline{
+        width: 260px; 
+        padding: 5px;
+        color: rgb(17, 41, 5);
+        font-size: 40px; 
+        font-family: Roboto; 
+        font-weight: bold;
+        border-radius: 15px;
+        border: 2px solid beige;
+    }
+    .headline:hover{
+        color: beige;
+        background-color: rgb(17, 41, 5);
+        border-color: rgb(17, 41, 5);
+    }
+    */
+* {
+  font-family: "Playpen Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0px;
+}
+
+#logo {
+  max-width: 70px;
+}
+
+#team_name {
+  bottom: 0px;
+}
+
+.navbar {
+  /* background-image: url(Header_IMG.jpeg); /* Replace 'path-to-your-image.jpg' with the actual path to your image file */
+  background-size: cover; /* This will scale the image to cover the entire background */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /*Keep the image fixed while scrolling */
+  color: white;
+  top: 0%;
+  padding: 0%;
+  position: fixed;
+  width: 100%;
+  height: 65px;
+  background-color: #4b4730;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+
+.nav_inline {
+  float: left;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 50px;
+
+  overflow: hidden;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+.navbar a:hover:not(#logo_id) {
+  background-color: rgb(143, 94, 94);
+}
+.hover-box {
+  position: relative;
+  width: 450px;
+  height: 200px;
+  background-color: #54400f;
+  color: #fff;
+  text-align: center;
+  transition: transform 0.3s, background-color 0.3s;
+  cursor: pointer;
+  border-radius: 50px;
+  padding-top: 10px;
+  /* content: "OUR MISSION"; */
+}
+
+.box-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  flex-direction: column;
+
+  opacity: 0;
+  transition: opacity 0.3s;
+  padding-top: 10px;
+  border-radius: 20px;
+}
+
+.hover-box:hover {
+  transform: scale(1.1);
+  background-color: #315328;
+  border-radius: 20px;
+}
+
+.hover-box:hover .box-content {
+  opacity: 1;
+  border-radius: 10px;
+}
+.semicircle {
+  font-family: roboto;
+  background-color: #ae8c5c;
+  margin-top: 50px;
+  width: 400px;
+  height: 150px;
+  border-left: 1px solid #ae8c5c;
+  border-right: 1px solid #ae8c5c;
+  border-bottom: 1px solid #ae8c5c; /* Change the color to your desired background color */
+  border-top-left-radius: 200px 200px;
+  border-top-right-radius: 200px 200px;
+  margin-left: 471px;
+  padding-top: 95px;
+  color: #21371b;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.division1 {
+  /* Replace 'path-to-your-image.jpg' with the actual path to your image file */
+  background-size: cover; /* This will scale the image to cover the entire background */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Keep the image fixed while scrolling */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../Photos/road.jpeg);
+  align-items: center;
+}
+.div1-content {
+  color: beige;
+  padding-left: 50px;
+  margin-right: 400px;
+  font-size: 20px;
+}
+.div2-content {
+  float: right;
+  color: beige;
+  padding-left: 50px;
+  margin-right: 300px;
+  font-size: 20px;
+}
+.division2 {
+  /* Replace 'path-to-your-image.jpg' with the actual path to your image file */
+  background-size: cover; /* This will scale the image to cover the entire background */
+  background-position: top; /* Center the image */
+  background-attachment: fixed; /* Keep the image fixed while scrolling */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../Photos/tree.jpeg);
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center;
+}
+
+.division:nth-child(odd) {
+  background-color: #555554; /* Blue background for odd divisions */
+}
+
+.division:nth-child(even) {
+  background-color: #b5e9ca; /* Red background for even divisions */
+}
+
+/* Animation */
+.division:hover {
+  transform: scale(1.05); /* Enlarge on hover */
+  transition: transform 0.3s;
+}
+
+/* Content positioning */
+.content {
+  width: 800px;
+  text-align: center;
+  margin-right: 80px;
+}
+
+.content:nth-child(odd) {
+  order: 1; /* Display on the left side for odd divisions */
+}
+
+.content:nth-child(even) {
+  order: 2; /* Display on the right side for even divisions */
+}
+.imgC {
+  width: 300px;
+  border-radius: 50px;
+}

@@ -1,0 +1,57 @@
+* {
+  font-family: "Playpen Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0px;
+}
+
+#logo {
+  max-width: 70px;
+}
+
+#team_name {
+  bottom: 0px;
+}
+
+.navbar {
+  color: white;
+  top: 0%;
+  padding: 0%;
+  position: fixed;
+  width: 100%;
+  height: 65px;
+  background-color: #4b4730;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+
+.nav_inline {
+  float: left;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 50px;
+
+  overflow: hidden;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+.navbar a:hover:not(#logo_id) {
+  background-color: rgb(143, 94, 94);
+}
+
+.footer {
+  background-color: #302c15;
+  color: white;
+}

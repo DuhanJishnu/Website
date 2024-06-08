@@ -1,0 +1,40 @@
+.main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../Photos/login_bg_img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding-top: 70px;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.input_field {
+  margin-top: 0px;
+  text-align: center;
+  border-radius: 30px;
+  width: 300px;
+  height: 50px;
+}
+
+.button {
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  background: rgb(96, 21, 30);
+  padding: 3px 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.button:hover {
+  color: rgb(163, 127, 127);
+}
+
+h2 {
+  font-size: 50px;
+}

@@ -1,0 +1,71 @@
+.leaderboard_table {
+  width: 100%;
+  display: flexbox;
+  border-collapse: collapse;
+  font-size: 25px;
+}
+
+a {
+  color: aliceblue;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+}
+
+.sl_no {
+  width: 80px;
+  height: 100px;
+}
+
+.col_1 {
+  width: 500px;
+  text-align: left;
+}
+
+.col_2 {
+  width: 300px;
+}
+
+.profile {
+  margin-top: 100px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 100px;
+}
+
+#profile_main {
+  width: 300px;
+}
+
+.row_1 {
+  background-color: rgba(79, 79, 152, 0.25);
+}
+
+.row_2 {
+  background-color: rgba(246, 89, 4, 0.25);
+}
+
+.row_3 {
+  background-color: rgba(193, 4, 246, 0.25);
+}
+.row_4 {
+  background-color: rgba(0, 255, 166, 0.25);
+}
+
+.main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../Photos/background_img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  color: white;
+  padding-top: 70px;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  font-size: 25px;
+}
